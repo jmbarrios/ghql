@@ -2,17 +2,14 @@
 % Please edit documentation in R/fragment-class.R
 \name{Fragment}
 \alias{Fragment}
-\title{ghql fragment class}
+\title{Fragment}
 \value{
 a `Fragment` class (R6 class)
 }
 \description{
 ghql fragment class
-
-ghql fragment class
 }
 \examples{
-\dontrun{
 # make a fragment class
 frag <- Fragment$new()
 
@@ -43,7 +40,6 @@ frag
 frag$fragments
 frag$fragments$Watchers
 frag$fragments$Stargazers
-}
 }
 \section{Public fields}{
 \if{html}{\out{<div class="r6-fields">}}

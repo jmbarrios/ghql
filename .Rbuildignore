@@ -7,3 +7,6 @@ appveyor.yml
 cran-comments.md
 man-roxygen
 ^Makefile$
+^.github$
+^codemeta\.json$
+^cran-comments\.md$

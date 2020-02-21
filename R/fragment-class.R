@@ -1,8 +1,8 @@
-#' ghql fragment class
-#'
+#' @title Fragment
+#' @description ghql fragment class
 #' @export
 #' @return a `Fragment` class (R6 class)
-#' @examples \dontrun{
+#' @examples
 #' # make a fragment class
 #' frag <- Fragment$new()
 #'
@@ -33,7 +33,6 @@
 #' frag$fragments
 #' frag$fragments$Watchers
 #' frag$fragments$Stargazers
-#' }
 Fragment <- R6::R6Class(
   "Fragment",
   portable = TRUE,
